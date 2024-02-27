@@ -3,18 +3,31 @@ import React from 'react';
 
 export default function ServiceInfo() {
     return (
-        <div>
-            <a href="#"
-               className="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
-                <img className="object-cover w-full rounded-t-lg h-96 md:h-auto md:w-48 md:rounded-none md:rounded-s-lg"
-                     src="/docs/images/blog/image-4.jpg" alt=""/>
-                <div className="flex flex-col justify-between p-4 leading-normal">
-                    <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Noteworthy
-                        technology acquisitions 2021</h5>
-                    <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">Here are the biggest enterprise
-                        technology acquisitions of 2021 so far, in reverse chronological order.</p>
+        <div className="py-16 bg-gray-800">
+            <div className="container m-auto px-6 text-gray-600 md:px-12 xl:px-6">
+                <div className="space-y-6 md:space-y-0 md:flex md:gap-6 lg:items-center lg:gap-12">
+                    <div className="md:5/12 lg:w-5/12">
+                        <img
+                            src="https://images.pexels.com/photos/8439097/pexels-photo-8439097.jpeg?auto=compress&cs=tinysrgb&w=800"
+                            alt="image"
+                        />
+                    </div>
+                    <div className="md:7/12 lg:w-6/12">
+                        <h2 className="text-2xl text-orange-300 font-bold md:text-4xl">
+                            React development is carried out by passionate developers
+                        </h2>
+                        <p className="mt-6 text-white">
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum omnis voluptatem
+                            accusantium nemo perspiciatis delectus atque autem! Voluptatum tenetur beatae unde
+                            aperiam, repellat expedita consequatur! Officiis id consequatur atque doloremque!
+                        </p>
+                        <p className="mt-4 text-blue-600">
+                            Nobis minus voluptatibus pariatur dignissimos libero quaerat iure expedita at?
+                            Asperiores nemo possimus nesciunt dicta veniam aspernatur quam mollitia.
+                        </p>
+                    </div>
                 </div>
-            </a>
+            </div>
         </div>
     );
 }

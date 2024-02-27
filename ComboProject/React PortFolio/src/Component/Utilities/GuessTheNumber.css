@@ -1,0 +1,65 @@
+#body {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+}
+
+.logo {
+    padding: 1.5em;
+    will-change: filter;
+    transition: filter 300ms;
+    animation: logo-spin infinite 20s linear;
+    position: relative;
+    border: 1px solid transparent; /* Add a transparent border to define the circle */
+    border-radius: 50%; /* Make it round by setting the border-radius to 50% */
+    background: black;
+    width: 120px; /* Increase the width to make the circle larger */
+    height: 120px;
+}
+.logo:hover {
+    filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+    filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    a:nth-of-type(2) .logo {
+        animation: logo-spin infinite 2s linear;
+    }
+}
+
+.card {
+    padding: 2em;
+}
+
+.read-the-docs {
+    color: #888;
+}
+
+/* Style for the input element */
+input#userGuess {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 100%;
+    margin-bottom: 10px;
+    outline: none;
+}
+
+/* Style for input when it's in focus (clicked or selected) */
+input#userGuess:focus {
+    border: 1px solid #007BFF; /* Change the border color when in focus */
+    box-shadow: 0 0 5px #007BFF; /* Add a box shadow when in focus */
+}
