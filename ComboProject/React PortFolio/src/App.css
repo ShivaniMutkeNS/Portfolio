@@ -5,9 +5,9 @@
 }
 
 body {
-    background-image: linear-gradient(to right , #000 0%, darkslategray,blueviolet 50%,darkblue 50%, #000 100%);
+    background-image: linear-gradient(  #000 0%, darkslategray,blueviolet 50%, #000 100%);
     background-size: 200% 100%;
-    animation: gradient 4s ease infinite;
+    animation: gradient 10s ease infinite;
 }
 @keyframes gradient {
     0% {background-position: 0%;}

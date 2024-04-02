@@ -10,13 +10,15 @@ import React from "react";
 function App() {
 
     return (
-        <>
+        <><Header/>
             <body>
+
             <div >
-                <Header/>
+
                 <Outlet/>
-                <Footer/>
+
             </div>
+            <Footer/>
             </body>
 
         </>
